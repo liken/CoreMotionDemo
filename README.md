@@ -8,15 +8,20 @@ delegate function to monitor device orientation.Don’t need to worry
 about the device lock.
 
 You can just use it as below:
-//define the monitor
+
+Define the monitor:
+
 var motionMonitor:MotionSynchronizer
 
-//in viewdidload
+In viewdidload func:
+
 motionMonitor = MotionSynchronizer()
 motionMonitor.delegate = self
 
-// start monitor
+To start monitor:
+
 motionMonitor.startMonitorMotion()
 
-// End monitor
+To end monitor:
+
 motionMonitor.stopMonitorMotion()
