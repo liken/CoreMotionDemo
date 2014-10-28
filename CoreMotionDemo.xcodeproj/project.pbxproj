@@ -13,6 +13,7 @@
 		6D9F6D6419FF97200037A63F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9F6D6319FF97200037A63F /* Images.xcassets */; };
 		6D9F6D6719FF97200037A63F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D9F6D6519FF97200037A63F /* LaunchScreen.xib */; };
 		6D9F6D7319FF97200037A63F /* CoreMotionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F6D7219FF97200037A63F /* CoreMotionDemoTests.swift */; };
+		6D9F6D7D19FF97330037A63F /* MotionSynchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F6D7C19FF97330037A63F /* MotionSynchronizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6D9F6D6C19FF97200037A63F /* CoreMotionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9F6D7119FF97200037A63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D9F6D7219FF97200037A63F /* CoreMotionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionDemoTests.swift; sourceTree = "<group>"; };
+		6D9F6D7C19FF97330037A63F /* MotionSynchronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionSynchronizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				6D9F6D5C19FF97200037A63F /* AppDelegate.swift */,
 				6D9F6D5E19FF97200037A63F /* ViewController.swift */,
+				6D9F6D7C19FF97330037A63F /* MotionSynchronizer.swift */,
 				6D9F6D6019FF97200037A63F /* Main.storyboard */,
 				6D9F6D6319FF97200037A63F /* Images.xcassets */,
 				6D9F6D6519FF97200037A63F /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D9F6D5F19FF97200037A63F /* ViewController.swift in Sources */,
+				6D9F6D7D19FF97330037A63F /* MotionSynchronizer.swift in Sources */,
 				6D9F6D5D19FF97200037A63F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
